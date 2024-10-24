@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #191D2B;
+}
+.container img{
+    margin-left: 80PX;
+    margin-top: 80px;
+   
+}
+.container h3{
+    font-family: 'abhaya libre';
+    margin-top: 5%;
+    color: rgb(255, 217, 0);
+    text-align-last :center;
+}
+.all{
+    float: right;
+    margin-left: 80PX;
+    margin-top: 45px;
+}
+.container{
+    display: inline-block;
+    margin-left: 40px;
+}
+.categories p{
+    display: inline-block;
+    font-family: 'Abhaya Libre';
+    letter-spacing: 2px;
+    font-size: 12px;
+    
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #aa9b2c66;
+    border-radius:80px;
+   
+}
+.description{
+    font-family: 'Amaranth';
+    color: white;
+    font-size: 13PX;
+    text-decoration: none;
+    
+    letter-spacing: 2px;
+   
+}
+.oo p{
+    font-family:'Abhaya Libre' ;
+    
+    color: white;
+    font-size: 17PX;
+    text-decoration: none;
+   
+    letter-spacing: 2px;
+}
+.oo span{
+    font-family: 'Abhaya Libre';
+    color:  rgb(255, 217, 0);
+}
+.year p{
+    color:  rgb(255, 217, 0);
+    font-family: 'Abhaya Libre';
+    font-size: 15PX;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.year button{
+    padding: 12px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color:#aa9b2c66 ;
+    box-shadow:#2e3651 0 0 8px ;
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    color: white;
+    margin-left: 270px;
+    margin-top: -20px;
+}
+.year button:hover{
+    letter-spacing: 3px;
+    font-family: 'Abhaya Libre';
+    background-color: rgb(255, 217, 0);
+    color: black;
+    box-shadow:rgb(255, 217, 0) 0px 7px 29px 0px;
+}
+.year button:active{
+    font-family: 'Abhaya Libre';
+    letter-spacing: 3px;
+    background-color:rgb(255, 217, 0);
+    color: black; 
+    box-shadow:rgb(255, 217, 0)  0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}

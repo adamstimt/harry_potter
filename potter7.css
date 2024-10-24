@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abhaya Libre';
+    background-color: #191D2B;
+}
+.title{
+    color:  rgba(255, 217, 0, 0.822);
+    letter-spacing: 2px;
+    font-size: 25px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 7px rgb(255, 217, 0) ;
+
+}
+.container img{
+    margin-left: 80px;
+    margin-top: 80px;
+   
+}
+.all{
+    float: right;
+    margin-left: 90px;
+    margin-top: 95px;
+}
+.container{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 50px;
+   
+}
+.categories p{
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 13px;
+   
+    padding: 10px 30px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #aa9b2c66;
+    border-radius:80px;
+   
+   
+}
+.description{
+    color: white;
+    font-size: 15PX;
+    text-decoration: none;
+    
+    letter-spacing: 2px;
+   
+   
+}
+.oo p{
+    
+   
+    color: white;
+    font-size: 18PX;
+    text-decoration: none;
+   
+    letter-spacing: 2px;
+}
+.oo span{
+    color:  rgb(255, 217, 0);
+   
+}
+.year p{
+    color:  rgb(255, 217, 0);
+    font-size: 17PX;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+   
+}
+.year button{
+    padding: 12px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color:#aa9b2c66 ;
+    box-shadow:#2e3651 0 0 8px ;
+    letter-spacing: 1.5px;
+   
+    font-size: 15px;
+    transition: all .5s ease;
+    color: white;
+    margin-left: 270px;
+    margin-top: -20px;
+}
+.year button:hover{
+    letter-spacing: 3px;
+    background-color: rgb(255, 217, 0);
+    color: black;
+    box-shadow:rgb(255, 217, 0) 0px 7px 29px 0px;
+}
+.year button:active{
+    letter-spacing: 3px;
+    background-color:rgb(255, 217, 0);
+    color: black; 
+    box-shadow:rgb(255, 217, 0)  0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
